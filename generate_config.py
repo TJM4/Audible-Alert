@@ -11,6 +11,7 @@ config = {}
 
 
 def load_config():
+    # Loads the config into the config variable
     global config
     if os.path.exists("config.json"):
         with open("config.json", "r") as f:
@@ -20,6 +21,7 @@ def load_config():
             "discord_webhook_url": "",
             "watching": {}
         }
+        save_config()
 
 
 def save_config():
@@ -73,6 +75,7 @@ def edit_authors():
         edit_authors()
         return
 
+    # Working out which option they picked (book or an option at the bottom)
     if selection < 1 or selection > len(authors) + 2:
         print("Option is out of range")
         edit_authors()
@@ -176,5 +179,6 @@ def add_author():
 
 
 if __name__ == "__main__":
+    # Loading the config and then launching the menu
     load_config()
     main_menu()
