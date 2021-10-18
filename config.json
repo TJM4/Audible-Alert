@@ -1,0 +1,29 @@
+{
+  "discord_webhook_url": "https://discord.com/api/webhooks/885579755192213505/xJCp7bs3NSpveWf3-XdkMwUATN0aBENlKW0H9NC9kTdjSWGXMiWoIX9y7JrsyI0g8fLI",
+  "watching": {
+    "Dennis E. Taylor": {
+      "series_ids": [],
+      "languages": [
+        "English"
+      ]
+    },
+    "Jeremy Robinson": {
+      "series_ids": [],
+      "languages": [
+        "English"
+      ]
+    },
+    "Andy Weir": {
+      "series_ids": [],
+      "languages": [
+        "English"
+      ]
+    },
+    "Stephen Leather": {
+      "series_ids": [],
+      "languages": [
+        "English"
+      ]
+    }
+  }
+}
