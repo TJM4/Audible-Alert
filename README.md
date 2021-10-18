@@ -25,3 +25,7 @@ You can now create a config file. The wizard provides an easy way to do this. To
 You're now ready to run the script!
 
 ``python main.py``
+
+## Credit
+
+Audible API documentation provided by https://audible.readthedocs.io/en/latest/misc/external_api.html
